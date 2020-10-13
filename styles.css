@@ -1,0 +1,207 @@
+/* Color Palette
+# - #2f3e46
+# - #354f52
+# - #52796f
+# - #84a98c
+# - #a2bea8
+*/
+body {
+  background: #2f3e46;
+/*   margin: 3% 0; */
+  line-height: 1.5;
+}
+a#about_tab:focus{
+  background-color: #a5aaa4;   
+  color: black;
+}
+a#work_tab:focus{
+  background-color: #a5aaa4;   
+  color: black;
+}
+a#education_tab:focus{
+  background-color: #a5aaa4;   
+  color: black;
+}
+a#download_tab:focus{
+  background-color: #a5aaa4;   
+  color: black;
+}
+a#google_tab:focus{
+  background-color: #a5aaa4;   
+  color: black;
+}
+a#git_tab:focus{
+  background-color: #a5aaa4;   
+  color: black;
+}
+a#twitter_tab:focus{
+  background-color: #a5aaa4;   
+  color: black;
+}
+a#linkedin_tab:focus{
+  background-color: #a5aaa4;   
+  color: black;
+}
+a#facebook_tab:focus{
+  background-color: #a5aaa4;   
+  color: black;
+}
+a:hover{
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+nav {
+  width: 100%;  
+  background-color:#354f52;
+  position: fixed;
+  margin:0px;
+  top:0;
+  overflow:hidden;
+  text-align:center;
+}
+nav a:hover{
+  background-color: #505750;   
+}
+nav a{
+  font-family: 'Ubuntu', sans-serif;  
+  font-size:1.3em;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px 30px;
+  justify-content:center;
+}
+.header{
+  background-color: #52796f;
+  padding:10px;
+}
+.content-wrap{
+  max-width: 1000px;  
+  margin: 0 auto; 
+  padding:50px;
+  overflow:hidden;
+}
+.work{
+  background-color: #84a98c;
+}
+
+.education{
+  background: #a2bea8;
+  padding-top: 150px;
+}
+.image-bg {
+  
+  /* sets the background image */
+  background: url(https://i0.wp.com/landstudies.com/wp-content/uploads/2017/02/Brookside-Country-Club-Stream-FPR-Banner-1000x400.jpg?fit=1000%2C400&ssl=1) no-repeat;
+  
+  /* sets gradient and image */
+  background: linear-gradient(rgba(108,177,139, 0.5),
+                 rgba(108,177,139, 0.5)),
+                 url(https://i0.wp.com/landstudies.com/wp-content/uploads/2017/02/Brookside-Country-Club-Stream-FPR-Banner-1000x400.jpg?fit=1000%2C400&ssl=1) no-repeat;
+  width:100%;
+/*   height:200px; */
+}
+
+.alpha-bg {
+  padding: 20px;
+/*   height: 100%; */
+  color: #eeeeee;
+  
+  /* sets the color with alpha transparency */
+  background: rgba(108,177,139, 0.5);
+  
+}
+/* used div footer instead of tag footer */
+.footer{
+/*   background: #A7C4B5; */
+  background-color:#354f52;
+  text-align:center;
+  color: white;
+}
+.contact-info{
+  
+}
+.contact-info a{
+  padding: 10px; 
+  display: inline-block; 
+}
+.profile-img{
+  border-radius:50%;
+  width: 270px;
+  height: 270px;
+}
+.column-narrow{
+  width: 27%; 
+  float : left; 
+  min-height: 175px;
+}
+.column-wide{
+  width: 70%; 
+  float:left; 
+  min-height: 225px;
+}
+.head{
+  padding-left:30px;
+/*   padding-top:90px; */
+}
+h1{
+  font-size:3em;
+  font-family: 'Ubuntu', sans-serif;
+  margin:0;
+}
+h2{
+  font-size:1.8em;
+  font-family: 'Ubuntu', sans-serif;
+  margin:0;
+}
+h2.cs{
+  margin-left:50px;
+}
+h3{
+  font-size:1em;
+  font-family: 'Ubuntu', sans-serif;
+}
+p{
+  font-family: 'Lora', serif;
+  font-size: 1.2em;
+}
+li{
+  font-size:1em;
+  font-family: 'Ubuntu', sans-serif;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%
+}
+.fa:hover{
+   opacity: 0.7;
+}
+.fa-twitter{
+/*   background: #55ACEE; */
+  background: #79A58E;
+  color: black;
+}
+.fa-facebook {
+/*   background: #3B5998; */
+  background: #79A58E;
+  color: black;
+}
+.fa-google {
+/*   background: #dd4b39; */
+  background: #79A58E;
+  color: black;
+}
+.fa-linkedin {
+/*   background: #007bb5; */
+  background: #79A58E;
+  color: black;
+}
+.fa-github {
+/*   background: #ffffff; */
+  background: #79A58E;
+  color: black;
+}
